@@ -28,6 +28,19 @@ to help leadership prioritize retention efforts.
 
 ## Project Structure
 
+```
+customer-churn-analysis/
+├── data/
+│   └── cell2cell_clean.csv        # Cleaned dataset (49,752 rows)
+├── notebooks/
+│   └── 01_cleaning_eda.ipynb      # Data cleaning + 5 EDA charts
+├── sql/
+│   └── churn_analysis.sql         # 5 business queries with findings
+├── images/
+│   └── (chart screenshots)
+└── README.md
+```
+
 ## Steps Taken
 1. **Data Cleaning** — Dropped 1,295 rows with missing values (<2%), 
    converted Churn to binary
